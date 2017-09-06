@@ -10,6 +10,7 @@ import redis.clients.jedis.Jedis;
 public class RedisJava {
 
 	public static void main(String[] args) {
+	    //ip
         Jedis jedis = new Jedis("192.168.121.129",6500);
         System.out.println("success");
         System.out.println("service running "+jedis.ping());
